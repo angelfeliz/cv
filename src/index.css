@@ -1,0 +1,103 @@
+.small_side,.large-side{
+  padding-top:3%;
+  padding-left:5%;
+  padding-right:5%;
+}
+.small_side{
+  background-color:#E6E6E6;
+}
+
+.title{
+ padding: 0px;
+ margin: 0px;
+ font-size: x-large;
+ text-align: center;
+ color:#66B2FF;
+}
+
+.sub-title{
+  padding: 0px;
+margin: 0px;
+font-size: large;
+text-align: center;
+}
+
+.persone-name-title{
+   margin-top: 3%;
+}
+
+.persone-category-title{
+margin-bottom: 12%;
+}
+
+
+.img-mark{
+  border: 2.5px solid black;
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  padding:4%;
+  margin: 0 auto;
+}
+.img-portfolio{
+      width: 100%;
+      margin: 0 auto;
+}
+
+.hexagono-shape{
+  display:inline-flex;
+  position:relative;
+  width: 42px;
+  height: 31px;
+  background-color:#66B2FF;
+  justify-content: center;
+}
+
+.hexagono-shape:before,
+.hexagono-shape:after{
+  content:"";
+  width:0;
+  position:absolute;
+  border-left: 22px solid transparent;
+  border-right: 20px solid transparent;
+}
+.hexagono-shape:before{
+  bottom:100%;
+  border-bottom: 13px solid #66B2FF;
+}
+
+.hexagono-shape:after{
+  top:100%;
+  width:0;
+  border-top:13px solid #66B2FF;
+}
+
+.hexagono-shape span{
+  color:#FFFFFF;
+}
+.title_box{
+  margin-top: 5%;
+    margin-bottom: 10%;
+}
+.line_box{
+    display: inline;
+    position: relative;
+    width:0;
+}
+.line_box:after{
+content:"";
+position:absolute;
+border-left: 77px solid black;
+width: 282px;
+border-top:1px solid red;
+top:100%;
+}
+.paragraf{
+  padding-left:5%;
+  padding-right:5%;
+  text-align: justify;
+}
+
+.company-name{
+   display: list-item;
+}
