@@ -3,23 +3,26 @@
   font-family: Roboto Condensed;
 }
 
+
 .small_side,.large-side{
   padding-top:3%;
   padding-left:5%;
   padding-right:5%;
 }
 .small_side{
-  background-color:#C1C1C1;/*#B9B9B9;*/
-  m
+  background-color:#DBDBDB;
+  /*#C1C1C1;/*#B9B9B9;*/
 }
 .large-side{
   background-color:#E5E3E3;
 }
 p{
   color:#727272;
-  font-size:90%;
+  font-size:93%;
   line-height: 25px;
-
+  text-align: justify;
+  letter-spacing: 1.2px;
+  font-weight: 500;
 }
 .title-blue{
 color:#66B2FF;
@@ -96,65 +99,63 @@ margin-bottom: 12%;
   margin-top: 9%;
   margin-bottom: 10%;
 }
+.large-side .title_box{
+      margin-left: 4%;
+}
 .line_box{
     display: inline;
     position: relative;
-    width:0;
+    width:90%;
+    padding: 0px;
 }
 .line_box:after{
 content:"";
 position:absolute;
-border-left: 77px solid black;
-width: 282px;
-border-top:1px solid red;
+border-left: 0px solid black;
+width: 100%;
+border-top:1px solid #66B2FF;
 top:100%;
 }
 .paragraph{
   padding-left:5%;
   padding-right:5%;
   text-align: justify;
+  letter-spacing: 1.2px;
 }
 
 .company-name{
    display: list-item;
 }
+.large-side .content_row{
+  padding-left: 9%;
+padding-right: 6%;
+}
 
 @media all and (max-width: 768px){
-  p{color:blue !important;}
- .small_side .line_box:after{
-      width: 508px;
-    }
-    .large-side .line_box:after{
-      width:504px;
-    }
+  p{
+    color:blue !important;
+  }
+
+
 }
 @media (min-width: 768px){
   p{color:black !important;}
-   .large-side .line_box:after{
-  width: 530px;
-}
-.small_side{
-  min-height: 258%;
-}
+  .container-customize{
+    display: flex;
+  }
 }
 @media all and (min-width: 992px){
   p{color:green !important;}
-   .large-side .line_box:after{
-      width: 659px;
-    }
-    .small_side{
-      min-height: 258%;
-    }
+  .container-customize{
+    display: flex;
+    padding-left: 3%;
+    padding-right: 3%;
+  }
 }
 @media all and (min-width: 1200px){
- .large-side .line_box:after{
-       width: 706px;
- }
- .small_side .line_box:after{
-       width: 282px;
- }
-.small_side{
-  min-height: 258% !important;
-}
    p{color:red !important;}
+   .container-customize{
+     display: flex;
+     background-image: url('../image/library.jpg');
+   }
 }
