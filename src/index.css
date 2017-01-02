@@ -105,8 +105,11 @@ margin-bottom: 12%;
 .line_box{
     display: inline;
     position: relative;
-    width:90%;
+    width:86%;
     padding: 0px;
+}
+.small_side .line_box{
+  width:80%;
 }
 .line_box:after{
 content:"";
