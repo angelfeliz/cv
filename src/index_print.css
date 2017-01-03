@@ -1,0 +1,41 @@
+.small_side{
+      background-color: blue;
+      padding-top: 3%;
+      padding-left: 5%;
+      padding-right: 5%;
+      width: 300px;
+}
+
+.img-mark{
+  border: 2.0px solid black;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  padding:2%;
+  margin: 0 auto;
+}
+.img-portfolio{
+      width: 100%;
+      margin: 0 auto;
+}
+
+.title{
+ padding: 0px;
+ margin: 0px;
+ font-size: x-large;
+ text-align: center;
+ color:#66B2FF;
+}
+.sub-title{
+  padding: 0px;
+margin: 0px;
+font-size: large;
+text-align: center;
+}
+.persone-name-title{
+   margin-top: 3%;
+}
+
+.persone-category-title{
+margin-bottom: 12%;
+}

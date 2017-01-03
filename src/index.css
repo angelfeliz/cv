@@ -28,6 +28,20 @@ p{
   letter-spacing: 1.2px;
   font-weight: 500;
 }
+
+.img-mark{
+  border: 2.5px solid black;
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  padding:4%;
+  margin: 0 auto;
+}
+.img-portfolio{
+      width: 100%;
+      margin: 0 auto;
+}
+
 .title-blue{
 color:#66B2FF;
 }
@@ -55,18 +69,7 @@ margin-bottom: 12%;
 }
 
 
-.img-mark{
-  border: 2.5px solid black;
-  border-radius: 50%;
-  width: 200px;
-  height: 200px;
-  padding:4%;
-  margin: 0 auto;
-}
-.img-portfolio{
-      width: 100%;
-      margin: 0 auto;
-}
+
 
 .hexagono-shape{
   display:inline-flex;
@@ -160,5 +163,7 @@ padding-right: 6%;
      width:75%;
      margin:0 auto;
    }
+}
+@media print{
 
 }
