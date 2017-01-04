@@ -1,5 +1,21 @@
+*,
+:after,
+:before{
+   /*print-color-adjust:exact;*/
+  -webkit-print-color-adjust:exact;
+  color:white!important;
+}
+
+h1,
+h2,
+h4,
+a,
+p{
+  color:black!important;
+}
+
 .small_side{
-      background-color: blue;
+      background-color: transparent;
       padding-top: 3%;
       padding-left: 5%;
       padding-right: 5%;
@@ -24,7 +40,8 @@
  margin: 0px;
  font-size: x-large;
  text-align: center;
- color:#66B2FF;
+ color:black!important;
+ font-weight:500;;
 }
 .sub-title{
   padding: 0px;
@@ -35,7 +52,63 @@ text-align: center;
 .persone-name-title{
    margin-top: 3%;
 }
-
 .persone-category-title{
 margin-bottom: 12%;
+}
+.title_box{/*creo que borrare*/
+  margin-top: 9%;
+  margin-bottom: 10%;
+}
+
+.hexagono-shape{
+  display:inline-flex;
+  position:relative;
+  width: 42px;
+  height: 31px;
+  background-color:#000!important;
+  justify-content: center;
+}
+
+.hexagono-shape:before,
+.hexagono-shape:after{
+  content:"";
+  width:0;
+  position:absolute;
+  border-left: 22px solid transparent;
+  border-right: 20px solid transparent;
+}
+.hexagono-shape:before{
+  bottom:100%;
+  border-bottom: 13px solid #000!important;
+}
+.hexagono-shape:after{
+  top:100%;
+  width:0;
+  border-top:13px solid #000!important;
+}
+.line_box{
+    display: inline;
+    position: relative;
+    width:86%;
+    padding: 0px;
+}
+.small_side .line_box{
+  width:80%;
+}
+.line_box:after{
+   content:"";
+   position:absolute;
+   border-left: 0px solid black;
+   width: 100%;
+   border-top:1px solid black;
+   top:100%;
+}
+.paragraph{
+  padding-left:5%;
+  padding-right:5%;
+  text-align: justify;
+  letter-spacing: 1.2px;
+}
+a[href]:after{
+  content:" (" attr(href) ")";
 }
