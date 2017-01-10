@@ -3,7 +3,9 @@
   font-family: Roboto Condensed;
 }
 
-
+.first_row{
+    background-color:#DBDBDB;
+}
 .small_side,
 .large-side{
   padding-top:3%;
@@ -146,7 +148,7 @@ padding-right: 6%;
 }
 @media all and (min-width: 992px){
   .container-customize{
-    display: flex;
+    /*display: flex;*/
     padding-left: 3%;
     padding-right: 3%;
   }
@@ -154,7 +156,7 @@ padding-right: 6%;
 @media all and (min-width: 1200px){
    p{color:#303030 !important;}/*1D1A1A*/
    .container-customize{
-     display: flex;
+     /*display: flex;*/
      background-image: url('../image/library.jpg');
    }
 }
