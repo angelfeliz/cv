@@ -38,13 +38,16 @@ color:#66B2FF;
  color:#66B2FF;
 }
 
-.sub-title{
-  padding: 0px;
-margin: 0px;
-font-size: large;
-text-align: center;
+.career{
+  padding-left: 3%;
+  font-size: 17px;
 }
 
+.first-row-space{
+  padding-top: 2%;
+  padding-left: 2%;
+  padding-right: 4%;
+}
 .persone-name-title{
    margin-top: 3%;
 }
