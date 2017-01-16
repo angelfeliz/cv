@@ -146,26 +146,12 @@ padding-right: 6%;
 }
 
 @media all and (max-width: 768px){
-
-
-}
-@media (min-width: 768px){
+h5{color:gray !important;}
 
 }
-@media all and (min-width: 992px){
-  .container-customize{
-    /*display: flex;*/
-    padding-left: 3%;
-    padding-right: 3%;
-  }
-}
-@media all and (min-width: 1200px){
-   p{color:#303030 !important;}/*1D1A1A*/
-   main{
-     /*display: flex;*/
-     background-image: url('../image/library.jpg');
-   }
-}
+
+
+
 @media print{
   #awesome_print_color{
     color:#ffffff!important;

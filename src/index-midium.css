@@ -1,0 +1,28 @@
+@media all and (min-width: 992px){
+  h5{color:red!important;}
+
+  .container-customize{
+    padding-left: 3%;
+    padding-right: 3%;
+  }
+
+  .full-name{
+    margin-top:10%;
+    margin-left:0;
+  }
+
+
+  .img-mark{
+    width: 143px;
+    height: 145px;
+  }
+
+  .img-mark:after{
+    content: "";
+    border-left: 0px black solid;
+    border-top:1px black solid;
+    width: 205%;
+    top:98%;
+    position: absolute;
+  }
+}

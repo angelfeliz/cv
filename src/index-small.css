@@ -1,0 +1,24 @@
+@media (min-width: 768px){
+h5{color:green !important;}
+
+.full-name{
+  margin-top:21%;
+  margin-left:4%;
+}
+.fa-stack{
+    font-size: 11px!important;
+}
+
+.social-network{
+ margin-top:6%;
+}
+
+.img-mark:after{
+  content: "";
+  border-left: 0px black solid;
+  border-top:1px black solid;
+  width: 250%;
+  top:98%;
+  position: absolute;
+}
+}
