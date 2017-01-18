@@ -21,4 +21,8 @@ h5{color:green !important;}
   top:98%;
   position: absolute;
 }
+
+.top-margin-small{
+    margin-top: 10%;
+  }
 }
