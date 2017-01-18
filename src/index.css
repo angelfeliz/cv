@@ -12,13 +12,13 @@
   padding-left:5%;
   padding-right:5%;
 }
-.small_side{
+/*.small_side{
   background-color:#DBDBDB;
   /*#C1C1C1;/*#B9B9B9;*/
-}
-.large-side{
+}*/
+/*.large-side{
   background-color:#E5E3E3;
-}
+}*/
 p{
   color:#303030;
   font-size:93%;
@@ -38,7 +38,10 @@ color:#66B2FF;
  color:#66B2FF;
 }
 
-.career{
+/*.career-container{
+      padding-left: 3.1%;
+}*/
+.career-name{
   padding-left: 3%;
   font-size: 17px;
 }
@@ -48,13 +51,16 @@ color:#66B2FF;
   padding-left: 2%;
   padding-right: 4%;
 }
-.persone-name-title{
+    .social-content{
+      text-align: end;
+    }
+/*.persone-name-title{
    margin-top: 3%;
-}
+}*/
 
-.persone-category-title{
+/*.persone-category-title{
 margin-bottom: 12%;
-}
+}*/
 
 
 .img-mark{

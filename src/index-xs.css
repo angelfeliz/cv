@@ -1,17 +1,57 @@
 @media all and (max-width: 768px){
 h5{color:gray !important;}
 
-.full-name{
-  margin-top:25%;
-  margin-left:8.3%;
+
+.img-mark{
+  width: 120%;
+  height: 0;
 }
+
+.full-name{
+  margin-top:17%;
+  margin-left:0;
+
+}
+
+.full-name h3{
+    font-size: 110%;
+}
+
+.career_container{
+margin-top: -1%;
+}
+.career-name{
+  font-size: 100%;
+  padding: 0px;
+  margin: 0px;
+}
+
 
 .img-mark:after{
   content: "";
-  border-left: 0px black solid;
-  border-top:1px black solid;
-  width: 227%;
+  border-left: 0px transparent solid;
+  border-top:1px transparent solid;
+  width: 0%;
   top:98%;
   position: absolute;
 }
+
+.social-content{
+  text-align:justify;
+}
+
+.social-network{
+  font-size: 70%;
+}
+
+.social-network-1{
+  margin-left: 6%;
+}
+.social-network-2{
+  margin-left: 17.2%;
+}
+.social-network-3{
+  margin-left: 18.1%
+}
+
 }
