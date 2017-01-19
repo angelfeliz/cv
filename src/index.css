@@ -3,20 +3,27 @@
   font-family: Roboto Condensed;
 }
 
-.first_row{
-    background-color:#DBDBDB;
+.bg-first-row{
+    background-image:url('../image/black-and-white-city-skyline-buildings.jpg');
+    background-size: 1170px 212px;
+
+    background-repeat: no-repeat;
 }
-.small_side,
+.bg-secound-row{
+      background-color:rgba(158, 158, 158,0.5 );
+}
+
+/*.small_side,
 .large-side{
   padding-top:3%;
   padding-left:5%;
   padding-right:5%;
 }
-/*.small_side{
+.small_side{
   background-color:#DBDBDB;
-  /*#C1C1C1;/*#B9B9B9;*/
-}*/
-/*.large-side{
+
+}
+.large-side{
   background-color:#E5E3E3;
 }*/
 p{
@@ -34,19 +41,20 @@ color:#66B2FF;
  padding: 0px;
  margin: 0px;
  font-size: x-large;
- text-align: center;
- color:#66B2FF;
+ color:#FFF;
 }
 
 /*.career-container{
       padding-left: 3.1%;
 }*/
 .career-name{
-  padding-left: 3%;
-  font-size: 17px;
+  font-size: 1.5em;
+  color:#fff;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
-.first-row-space{
+.picture-container{
   padding-top: 2%;
   padding-left: 2%;
   padding-right: 4%;
@@ -86,7 +94,7 @@ margin-bottom: 12%;
   position:relative;
   width: 42px;
   height: 31px;
-  background-color:#66B2FF;
+  background-color:rgb(81, 78, 78);
   justify-content: center;
 }
 
@@ -100,13 +108,13 @@ margin-bottom: 12%;
 }
 .hexagono-shape:before{
   bottom:100%;
-  border-bottom: 13px solid #66B2FF;
+  border-bottom: 13px solid rgb(81, 78, 78);
 }
 
 .hexagono-shape:after{
   top:100%;
   width:0;
-  border-top:13px solid #66B2FF;
+  border-top:13px solid rgb(81, 78, 78);
 }
 
 .hexagono-shape span{
@@ -119,28 +127,46 @@ margin-bottom: 12%;
 .large-side .title_box{
       margin-left: 4%;
 }
-.line_box{
+/*.line_box{
     display: inline;
     position: relative;
     width:86%;
     padding: 0px;
+}*/
+.vertical-line{
+  border: 1px solid black;
+  border-radius: 100%;
+  width: 65%;
+  height: 2%;
+  background-color:black;
+  margin-left: 14%;
 }
-.small_side .line_box{
+
+.education-space{
+      margin-bottom: 4%;
+}
+/*.vertical-line:after{
+  content: "+";
+  border-right: 1px solid black;
+  width: 100%;
+}*/
+/*.small_side .line_box{
   width:80%;
-}
-.line_box:after{
+}*/
+/*.line_box:after{
 content:"";
 position:absolute;
 border-left: 0px solid black;
 width: 100%;
 border-top:1px solid #66B2FF;
 top:100%;
-}
+}*/
 .paragraph{
   padding-left:5%;
   padding-right:5%;
   text-align: justify;
   letter-spacing: 1.2px;
+  color:#fff;
 }
 
 .company-name{
@@ -151,9 +177,21 @@ top:100%;
 padding-right: 6%;
 }
 
-q
+.education-color-black, .education-color-gray{
+  margin: 0;
+  margin-bottom: 0.5%;
+  padding: 0;
+  font-weight: bold;
+}
 
+.education-color-gray{
+  font-weight:lighter;
+  color:#fff;
+}
 
+.social-network a{
+  color:#fff;
+}
 
 @media print{
   #awesome_print_color{

@@ -2,7 +2,9 @@
 
 
    main{
-     background-image: url('../image/library.jpg');
+    background-image:url('../image/black-and-white-city-skyline-buildings.jpg');
+      /*background-color:rgba(158, 158, 158,1);*/
+    /* background-image: url('../image/library.jpg');*/
     }
 
   h5{color:blue!important;}
@@ -10,17 +12,11 @@
     color:#66B2FF;
     }
 
-    .title{
-     padding: 0px;
-     margin: 0px;
-     font-size: x-large;
-     text-align: center;
-     color:#66B2FF;
-    }
-
     .full-name{
       margin-top:9%;
       margin-left:4%;
+      color:#fff;
+      
     }
 
 
@@ -32,13 +28,13 @@
     .img-mark:after{
       content: "";
       border-left: 0px black solid;
-      border-top:1px black solid;
+      border-top:1px #fff solid;
       width: 254%;
       top:98%;
       position: absolute;
     }
 
-    .career-container {
+    .career-container, .secound-one-row-space {
     padding-left: 3.1%;
   }
 }
