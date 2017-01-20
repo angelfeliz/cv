@@ -1,5 +1,5 @@
 @media all and (max-width: 768px){
-h5{color:gray !important;}
+.career-name{color:orange !important;}
 
 
 .img-mark{
@@ -10,20 +10,23 @@ h5{color:gray !important;}
 .full-name{
   margin-top:17%;
   margin-left:0;
+  color:#fff;
 
 }
 
-.full-name h3{
-    font-size: 110%;
-}
 
-.career_container{
-margin-top: -1%;
+
+.career-container{
+    margin-top: 32%;
+    margin-left: 0;
+    margin-bottom: 3%;
 }
 .career-name{
-  font-size: 100%;
   padding: 0px;
   margin: 0px;
+}
+.career-container, .secound-one-row-space {
+padding-left: 3.1%;
 }
 
 
@@ -36,22 +39,20 @@ margin-top: -1%;
   position: absolute;
 }
 
-.social-content{
-  text-align:justify;
+
+
+.color-white{
+  color:#fff;
 }
 
-.social-network{
-  font-size: 70%;
+/*.social-network-1{
+  text-align: start;
 }
-
-.social-network-1{
-  margin-left: 6%;
-}
-.social-network-2{
+/*.social-network-2{
   margin-left: 17.2%;
 }
 .social-network-3{
-  margin-left: 18.1%
-}
+    margin-right: -36%;
+}*/
 
 }

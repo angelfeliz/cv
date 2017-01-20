@@ -1,5 +1,5 @@
 @media all and (min-width: 992px){
-  h5{color:red!important;}
+  .career-name{color:red!important;}
 
   .container-customize{
     padding-left: 3%;
@@ -9,6 +9,7 @@
   .full-name{
     margin-top:10%;
     margin-left:0;
+    color:#fff;
   }
 
 
@@ -20,7 +21,7 @@
   .img-mark:after{
     content: "";
     border-left: 0px black solid;
-    border-top:1px black solid;
+    border-top:1px #fff solid;
     width: 205%;
     top:98%;
     position: absolute;
@@ -30,7 +31,6 @@
       margin-top: 0;
     }
 
-    .career-container {
-    padding-left: 3.1%;
-  }
-}
+  .career-container, .secound-one-row-space {
+  padding-left: 3.1%;
+ }
