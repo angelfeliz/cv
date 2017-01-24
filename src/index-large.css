@@ -11,7 +11,9 @@
       color:#fff;
 
     }
-
+    .full-name h3 {
+        margin-top: 8%;
+    }
 
       .img-mark{
         width: 143px;
@@ -23,11 +25,15 @@
       border-left: 0px black solid;
       border-top:1px #fff solid;
       width: 254%;
-      top:98%;
+      top:96%;
       position: absolute;
     }
 
-    .career-container, .secound-one-row-space, .third-one-row-space {
-    padding-left: 3.1%;
+    .line-upper-div:after {
+         width: 78%;
+     }
+     
+  .company-worked {
+    margin-left: 23%;
   }
 }

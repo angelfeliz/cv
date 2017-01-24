@@ -88,15 +88,13 @@ margin-bottom: 12%;
   margin-left:4%;
 }
 .full-name h3{
-  font-size: 1.3em;
+  font-size: 1.7em;
 }
 /*.img-mark:after{
-  content: "";
-  border-left: 0px black solid;
-  border-top:1px black solid;
-  width: 246%;
-  top:98%;
-  position: absolute;
+    content: "";
+    border-left: 0px black solid;
+    border-top:1px #fff solid;
+    position: absolute;
 }*/
 
 .hexagono-shape{
@@ -132,7 +130,7 @@ margin-bottom: 12%;
 }
 .title_box{
   margin-top: 9%;
-  margin-bottom: 10%;
+  margin-bottom: 5%;
 }
 /*.large-side .title_box{
       margin-left: 4%;
@@ -206,7 +204,7 @@ padding-right: 6%;
   color:#fff;
 }
 
-.career-container, .secound-one-row-space {
+.career-container, .row-space-left {
 padding-left: 3.1%;
 }
 
@@ -229,7 +227,7 @@ padding-left: 3.1%;
   font-size: 1.0em;
   color: #fff;
   margin-bottom: 0;
-  margin-left: 3%;
+  margin-left: 22%;
 }
 
 .pad-right-0{

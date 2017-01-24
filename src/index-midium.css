@@ -1,5 +1,8 @@
 @media all and (min-width: 992px){
-  .career-name{color:red!important;}
+  .career-name{
+    color:red!important;
+    padding-left: 0.5%;
+  }
 
   .container-customize{
     padding-left: 3%;
@@ -12,6 +15,11 @@
     color:#fff;
   }
 
+  .full-name h3{
+      margin-bottom: 0;
+      margin-top: 9%;
+    }
+
 
   .img-mark{
     width: 143px;
@@ -22,11 +30,23 @@
     content: "";
     border-left: 0px black solid;
     border-top:1px #fff solid;
-    width: 205%;
-    top:98%;
     position: absolute;
+    width: 205%;
+    top:95%;
   }
+
+ .career-container div{
+       padding-left: 0;
+ }
 
   .top-margin-small{
       margin-top: 0;
+    }
+
+    .company-worked {
+      margin-left: 20%;
+    }
+
+    .pad-right-0{
+          padding-right: 1%;
     }
