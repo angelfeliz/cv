@@ -19,20 +19,6 @@ background-position:center;
 .bg-secound-row{
       background-color:rgba(158, 158, 158,0.5 );
 }
-
-/*.small_side,
-.large-side{
-  padding-top:3%;
-  padding-left:5%;
-  padding-right:5%;
-}
-.small_side{
-  background-color:#DBDBDB;
-
-}
-.large-side{
-  background-color:#E5E3E3;
-}*/
 p{
   color:#303030;
   font-size: 1.1em;;
@@ -41,19 +27,12 @@ p{
   letter-spacing: 1.2px;
   font-weight: 500;
 }
-/*.title-blue{
-color:#66B2FF;
-}*/
 .title{
  padding: 0px;
  margin: 0px;
  font-size: x-large;
  color:#FFF;
 }
-
-/*.career-container{
-      padding-left: 3.1%;
-}*/
 .career-name{
   font-size: 1.1em;
   color:#fff;
@@ -69,15 +48,6 @@ color:#66B2FF;
 .social-content{
       text-align: end;
 }
-/*.persone-name-title{
-   margin-top: 3%;
-}*/
-
-/*.persone-category-title{
-margin-bottom: 12%;
-}*/
-
-
 .img-mark{
   width: 200px;
   height: 200px;
@@ -132,15 +102,6 @@ margin-bottom: 12%;
   margin-top: 9%;
   margin-bottom: 5%;
 }
-/*.large-side .title_box{
-      margin-left: 4%;
-}*/
-/*.line_box{
-    display: inline;
-    position: relative;
-    width:86%;
-    padding: 0px;
-}*/
 .dot-black{
   border: 1px solid black;
   border-radius: 100%;
@@ -149,28 +110,10 @@ margin-bottom: 12%;
   background-color:black;
   margin-left: 14%;
 }
-
 .education-space{
       margin-bottom: 4%;
 }
-/*.vertical-line:after{
-  content: "+";
-  border-right: 1px solid black;
-  width: 100%;
-}*/
-/*.small_side .line_box{
-  width:80%;
-}*/
-/*.line_box:after{
-content:"";
-position:absolute;
-border-left: 0px solid black;
-width: 100%;
-border-top:1px solid #66B2FF;
-top:100%;
-}*/
 .paragraph{
-  /*padding-left:5%;*/
   padding-right:5%;
   text-align: justify;
   letter-spacing: 1.2px;
@@ -180,10 +123,6 @@ top:100%;
 .company-name{
    display: list-item;
 }
-/*.large-side .content_row{
-  padding-left: 9%;
-padding-right: 6%;
-}*/
 
 .education-color-black, .education-color-gray{
   margin: 0;
@@ -233,6 +172,23 @@ padding-left: 3.1%;
 .pad-right-0{
   padding-right: 0;
 }
+.align_title_box{
+  padding-left:15px;
+}
+.circle{
+  border: 1px solid rgb(255, 0, 0);
+  height: 2%;
+  width: 100%;
+  border-radius: 50px;
+  background-image: linear-gradient( to right, rgb(255, 0, 0) 0%, rgb(255, 0, 0) 50%, rgba(255, 0, 0, 0.31) 50%, rgba(255, 0, 0, 0.3) 100% );
+
+}
+.align_circle{
+      margin-top: 1.9%;
+      margin-left: 5%;
+}
+
+.circle-25{}
 
 @media print{
   #awesome_print_color{
