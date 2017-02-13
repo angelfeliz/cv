@@ -60,12 +60,7 @@ p{
 .full-name h3{
   font-size: 1.7em;
 }
-/*.img-mark:after{
-    content: "";
-    border-left: 0px black solid;
-    border-top:1px #fff solid;
-    position: absolute;
-}*/
+
 
 .hexagono-shape{
   display:inline-flex;
@@ -74,6 +69,8 @@ p{
   height: 31px;
   background-color:rgb(81, 78, 78);
   justify-content: center;
+  -webkit-justify-content:center;
+  -moz-justify-content:center;
 }
 
 .hexagono-shape:before,
@@ -144,7 +141,9 @@ p{
 }
 
 .career-container, .row-space-left {
-padding-left: 3.1%;
+  padding-left: 3.1%;
+  -webkit-padding-left: 3.1%;
+  -moz-padding-left: 3.1%;
 }
 
 .line-upper-div:after{
