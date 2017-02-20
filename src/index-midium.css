@@ -35,6 +35,16 @@
     top:95%;
   }
 
+  .exp_row_time{
+    margin-left: 4%;
+  }
+
+  .line-upper-div:after {
+    margin-left: 23%;
+    width: 60%;    
+  }
+
+
  .career-container div{
        padding-left: 0;
  }

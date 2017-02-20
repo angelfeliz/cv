@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
 *{
   font-family: Roboto Condensed;
+  color:#000000;
 }
 
 main{
@@ -17,15 +18,21 @@ background-position:center;
     background-repeat: no-repeat;
 }
 .bg-secound-row{
-      background-color:rgba(158, 158, 158,0.5 );
+      background-color:rgba(158, 158, 158,0.8 );
 }
 p{
-  color:#303030;
-  font-size: 1.1em;;
-  line-height: 25px;
-  text-align: justify;
+  color:#000000;
+  font-size: 1.1em;
   letter-spacing: 1.2px;
   font-weight: 500;
+}
+.paragraph{
+  text-align: justify;
+  line-height: 25px;
+  padding-right:5%;
+  text-align: justify;
+  letter-spacing: 1.2px;
+  color:#fff;
 }
 .title{
  padding: 0px;
@@ -109,12 +116,7 @@ p{
 .education-space{
       margin-bottom: 4%;
 }
-.paragraph{
-  padding-right:5%;
-  text-align: justify;
-  letter-spacing: 1.2px;
-  color:#fff;
-}
+
 
 .company-name{
    display: list-item;
@@ -124,7 +126,7 @@ p{
   margin: 0;
   margin-bottom: 0.5%;
   padding: 0;
-  font-weight: bold;
+  /*font-weight: bold;*/
 }
 
 .education-color-gray{
@@ -146,6 +148,7 @@ p{
 }
 
 .line-upper-div:after{
+  margin-left: 31%;
   content: "";
   position: absolute;
   width: 85%;
@@ -161,7 +164,6 @@ p{
     margin-top:0;
 }
 .company-worked{
-  font-size: 1.0em;
   color: #fff;
   margin-bottom: 0;
   margin-left: 22%;
@@ -171,25 +173,5 @@ p{
   padding-right: 0;
 }
 .align_title_box{
-  padding-left:15px;
-}
-.circle{
-  border: 1px solid rgb(255, 0, 0);
-  height: 2%;
-  width: 100%;
-  border-radius: 50px;
-  background-image: linear-gradient( to right, rgb(255, 0, 0) 0%, rgb(255, 0, 0) 50%, rgba(255, 0, 0, 0.31) 50%, rgba(255, 0, 0, 0.3) 100% );
-
-}
-.align_circle{
-      margin-top: 1.9%;
-      margin-left: 5%;
-}
-
-.circle-25{}
-
-@media print{
-  #awesome_print_color{
-    color:#ffffff!important;
-  }
+  padding-left:11%;
 }
