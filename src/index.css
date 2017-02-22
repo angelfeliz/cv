@@ -7,10 +7,8 @@
 main{
  background-image:url('../image/black-and-white-city-skyline-buildings.jpg');
  background-repeat: no-repeat;
-background-size: cover;
-background-position:center;
-   /*background-color:rgba(158, 158, 158,1);*/
- /* background-image: url('../image/library.jpg');*/
+ background-size: cover;
+ background-position:center;
  }
 .bg-first-row{
     background-image:url('../image/black-and-white-city-skyline-buildings.jpg');
@@ -33,6 +31,8 @@ p{
   text-align: justify;
   letter-spacing: 1.2px;
   color:#fff;
+  font-size: 1.3em;
+      margin-left: 4.1%;
 }
 .title{
  padding: 0px;
@@ -116,8 +116,6 @@ p{
 .education-space{
       margin-bottom: 4%;
 }
-
-
 .company-name{
    display: list-item;
 }
@@ -168,10 +166,24 @@ p{
   margin-bottom: 0;
   margin-left: 22%;
 }
-
 .pad-right-0{
   padding-right: 0;
 }
 .align_title_box{
   padding-left:11%;
+}
+
+.language_space{
+  margin-left: 8%
+}
+.language h4{
+  color:white;
+  margin-bottom: 0;
+}
+.passion-space{
+  margin-left: 4%;
+}
+.one-size-img{
+  height: 21%;
+    width: 98%;
 }

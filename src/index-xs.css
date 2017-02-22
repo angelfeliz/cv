@@ -1,6 +1,10 @@
 @media all and (max-width: 768px){
 .career-name{color:orange !important;}
 
+html,body{
+  overflow-x: hidden;
+
+}
 
 .img-mark{
   width: 120%;
