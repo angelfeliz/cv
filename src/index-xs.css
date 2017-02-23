@@ -5,18 +5,15 @@ html,body{
   overflow-x: hidden;
 
 }
-
 .img-mark{
   width: 120%;
   height: 0;
 }
-
 .full-name{
   margin-top:17%;
   margin-left:0;
   color:#fff;
 }
-
 .career-container{
     margin-top: 32%;
     margin-left: 0;
@@ -26,9 +23,6 @@ html,body{
   padding: 0px;
   margin: 0px;
 }
-
-
-
 .img-mark:after{
   content: "";
   border-left: 0px transparent solid;
@@ -37,21 +31,7 @@ html,body{
   top:98%;
   position: absolute;
 }
-
-
-
 .color-white{
   color:#fff;
 }
-
-/*.social-network-1{
-  text-align: start;
-}
-/*.social-network-2{
-  margin-left: 17.2%;
-}
-.social-network-3{
-    margin-right: -36%;
-}*/
-
 }
