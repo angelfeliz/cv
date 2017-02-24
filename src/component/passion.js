@@ -18,11 +18,41 @@ return (
             <div className="row">
                 <img className="img-responsive one-size-img" src={require("../images/night-photography.jpg")}/>
             </div>
-            <div className="row passion-text">
-              <h5>
-                Photographic
-              </h5>
+              <div className="row passion-text">
+                <h5>
+                    {props.form.passions[0]}
+                </h5>
+              </div>
+          </div>
+          <div className="col-lg-2 col-md-2 col-sm-4 col-xs-12">
+            <div className="row">
+                <img className="img-responsive one-size-img" src={require("../images/exercise.jpg")}/>
             </div>
+              <div className="row passion-text">
+                <h5>
+                    {props.form.passions[1]}
+                </h5>
+              </div>
+          </div>
+          <div className="col-lg-2 col-md-2 col-sm-4 col-xs-12">
+            <div className="row">
+                <img className="img-responsive one-size-img" src={require("../images/music-dance.jpg")}/>
+            </div>
+              <div className="row passion-text">
+                <h5>
+                    {props.form.passions[2]}
+                </h5>
+              </div>
+          </div>
+          <div className="col-lg-2 col-md-2 col-sm-4 col-xs-12">
+            <div className="row">
+                <img className="img-responsive one-size-img" src={require("../images/adventure-travel.jpg")}/>
+            </div>
+              <div className="row passion-text">
+                <h5>
+                    {props.form.passions[3]}
+                </h5>
+              </div>
           </div>
           </div>
     </div>

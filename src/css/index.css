@@ -182,10 +182,12 @@ p{
   margin-left: 4%;
 }
 .one-size-img{
-  height: 21%;
+  height: 100px;
     width: 98%;
 }
-
+.passion-text h5{
+  color:white;
+}
 @media all and (max-width: 768px){
 .career-name{color:orange !important;}
 
