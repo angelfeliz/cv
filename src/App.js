@@ -131,8 +131,8 @@ componentWillMount(){
     return (
       <main>
         <div className="container bg-first-row">
-          <button type="button" className="btn btn-default" onClick={()=>this.handleClick('EN')}>EN</button>
-          <button type="button" className="btn btn-default" onClick={()=>this.handleClick('ES')}>ES</button>
+          <button type="button" className="btn btn-default btn-shape-link" onClick={()=>this.handleClick('EN')}>EN</button>
+          <button type="button" className="btn btn-default btn-shape-link" onClick={()=>this.handleClick('ES')}>ES</button>
           <Head form = {this.state.currently} />
         </div>
         <div className="container bg-secound-row">

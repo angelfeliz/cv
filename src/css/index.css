@@ -188,8 +188,14 @@ p{
 .passion-text h5{
   color:white;
 }
+.btn-shape-link{
+    border: none;
+    background-color: transparent;
+}
+.btn-shape-link:hover{
+  color: cornflowerblue;
+}
 @media all and (max-width: 768px){
-.career-name{color:orange !important;}
 
 html,body{
   overflow-x: hidden;
@@ -227,8 +233,6 @@ html,body{
 }
 
 @media (min-width: 768px){
-.career-name{color:green !important;}
-
 .full-name{
   margin-top:21%;
   margin-left:4%;
@@ -259,7 +263,7 @@ html,body{
 
 @media all and (min-width: 992px){
   .career-name{
-    color:red!important;
+    /*color:red!important;*/
     padding-left: 0.5%;
   }
   .container-customize{
@@ -309,9 +313,7 @@ html,body{
   }
 
 
-@media all and (min-width: 1200px){
-
-  .career-name{color:blue!important;}
+@media all and (min-width: 1200px){  
     .title-blue{
     color:#66B2FF;
     }

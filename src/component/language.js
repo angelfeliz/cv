@@ -25,7 +25,7 @@ const language = (props) => {
                       </div>
                      </div>
                 <div className="row language_space language_level">
-                  <div className="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                  <div className="col-lg-7 col-md-7 col-sm-7 col-xs-12">
                     <p className="">
                       {item.level}
                     </p>
