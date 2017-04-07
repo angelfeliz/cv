@@ -14,9 +14,9 @@ return (
             </div>
           </div>
           <div className="row passion-space">
-          <div className="col-lg-2 col-md-2 col-sm-4 col-xs-12">
+          <div className="col-lg-1 col-md-2 col-sm-4 col-xs-12">
             <div className="row">
-                <img className="img-responsive one-size-img" src={require("../images/night-photography.jpg")}/>
+                <img className="img-responsive one-size-img" src={require("../images/camera-1.png")}/>
             </div>
               <div className="row passion-text">
                 <h5>
@@ -24,9 +24,9 @@ return (
                 </h5>
               </div>
           </div>
-          <div className="col-lg-2 col-md-2 col-sm-4 col-xs-12">
+          <div className="col-lg-1 col-md-2 col-sm-4 col-xs-12">
             <div className="row">
-                <img className="img-responsive one-size-img" src={require("../images/exercise.jpg")}/>
+                <img className="img-responsive one-size-img" src={require("../images/exercise-1.png")}/>
             </div>
               <div className="row passion-text">
                 <h5>
@@ -34,9 +34,9 @@ return (
                 </h5>
               </div>
           </div>
-          <div className="col-lg-2 col-md-2 col-sm-4 col-xs-12">
+          <div className="col-lg-1 col-md-2 col-sm-4 col-xs-12">
             <div className="row">
-                <img className="img-responsive one-size-img" src={require("../images/music-dance.jpg")}/>
+                <img className="img-responsive one-size-img" src={require("../images/music-2.png")}/>
             </div>
               <div className="row passion-text">
                 <h5>
@@ -44,9 +44,9 @@ return (
                 </h5>
               </div>
           </div>
-          <div className="col-lg-2 col-md-2 col-sm-4 col-xs-12">
+          <div className="col-lg-1 col-md-2 col-sm-4 col-xs-12">
             <div className="row">
-                <img className="img-responsive one-size-img" src={require("../images/adventure-travel.jpg")}/>
+                <img className="img-responsive one-size-img" src={require("../images/adventure-1.png")}/>
             </div>
               <div className="row passion-text">
                 <h5>
